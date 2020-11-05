@@ -40,7 +40,7 @@ if (screen.width < 800) {
   const caseItems = document.querySelectorAll('.case-item');
   const image = document.querySelector('img');
 
-  // loop through everything
+  // iterate on all case items with forEach
   caseItems.forEach((element) => {
     // when mouse enters case item, add image to empty img tag
     element.addEventListener('mouseenter', (event) => {
